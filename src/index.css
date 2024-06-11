@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-[#f9f9f9];
+  }
+  input {
+    /* @apply input input-bordered w-full; */
+  }
+
+  button {
+    /* @apply btn w-full; */
+  }
+}

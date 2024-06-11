@@ -1,0 +1,25 @@
+.table-wrapper {
+  @apply overflow-auto;
+  table {
+    @apply w-full table-fixed text-sm;
+    thead > tr > th,
+    tbody,
+    tr,
+    td {
+      @apply text-start border py-3 px-4;
+    }
+  }
+}
+
+.product-counter {
+  @apply border inline-block;
+
+  button,
+  span {
+    @apply px-4 py-2;
+  }
+
+  span {
+    @apply border-x;
+  }
+}

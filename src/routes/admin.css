@@ -1,0 +1,14 @@
+.label-with-input {
+  @apply grid gap-1;
+  span {
+    @apply text-sm block font-semibold;
+  }
+  input {
+    @apply w-full border rounded px-4 py-2;
+  }
+}
+
+h1,
+h2 {
+  @apply text-cyan-400;
+}
